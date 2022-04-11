@@ -26,3 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
+      with:
+        token: ${{ actions.secrets.CODECOV_TOKEN }}
