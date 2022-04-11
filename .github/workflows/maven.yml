@@ -28,5 +28,5 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage.xml
+        file: ../../../target/surefire-reports/TEST-org.jacoco.examples.maven.java.HelloWorld5Test.xml
         flags: unittests
