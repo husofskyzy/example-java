@@ -34,9 +34,4 @@ public class HelloWorld5Test {
         String a = "tom";
         assertEquals(a,"tom");
     }
-
-    @Test
-    public void testShow666() {
-        System.out.println(666);
-    }
 }
